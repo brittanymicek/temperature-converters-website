@@ -15,14 +15,6 @@ function onConvertBtnClicked() {
     convertedTempField.value = parseInt(tempChange);
     
 }
-
-// function onConvertBtnClicked() {
-//     const tempCelsiusField = document.getElementById("tempCelsius");
-//     let tempCelsius = Number(tempCelsiusField.value);
-
-//     let tempChange = (tempCelsius * 9/5) + 32;
-    
-//     const convertedTempField = document.getElementById("convertedTemp");
-//     convertedTempField.value = parseInt(tempChange);
-    
+// if (tempFahrenheitField == false) {
+//     convertedTempField = "unknown";
 // }

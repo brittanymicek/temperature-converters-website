@@ -20,7 +20,7 @@
 
     <script src="js/c_to_ f.js"></script>
 
-    <title>Temperature Calculator</title>
+    <title>Temperature Calculator - Celsius</title>
 </head>
 
 <body>
@@ -49,6 +49,7 @@
     </header>
     <main>
         <!-- input temperature-->
+        <form>
         <p>
             <label for="tempCelsius">Temperature in Celsius</label>
             <input type="text" id="tempCelsius">
@@ -57,11 +58,11 @@
         <p>
             <input type="button" value="CONVERT" id="convertBtn">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="reset" value="Reset">
+            
         </p>
-
         <p>Temperature in Fahrenheit <input type="text" id="convertedTemp" readonly /></p>
-
+        <input type="reset">
+    </form>
     </main>
     <footer></footer>
 </body>
