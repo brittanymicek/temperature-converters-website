@@ -19,6 +19,6 @@ function onConvertBtnClicked() {
     
 }
 // statement to stop auto-generation of value when input field is null
-// if (tempFahrenheitField = false) {
-//     convertedTempField = "unknown";
+// if (tempFahrenheitField == null || "") {
+//     convertedTempField == null;
 // }

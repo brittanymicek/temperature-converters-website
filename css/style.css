@@ -12,8 +12,13 @@
     color: #fff;
     text-decoration: none;
   }
-
+.banner {
+  background-color: lightgray;
+  height: 100px;
+  text-align: center;
+}
 h1 {
+    text-transform: uppercase;
     text-align: center;
     color:cadetblue;
 }
