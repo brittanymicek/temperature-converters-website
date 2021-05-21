@@ -6,15 +6,19 @@ window.onload = function() {
 }
 
 function onConvertBtnClicked() {
+    // user input
     const tempFahrenheitField = document.getElementById("tempFahrenheit");
     let tempFahrenheit = Number(tempFahrenheitField.value);
 
+    // calculate temperature formula
     let tempChange = (tempFahrenheit - 32) * 5/9;
     
+    // output
     const convertedTempField = document.getElementById("convertedTemp");
     convertedTempField.value = parseInt(tempChange);
     
 }
-// if (tempFahrenheitField == false) {
+// statement to stop auto-generation of value when input field is null
+// if (tempFahrenheitField = false) {
 //     convertedTempField = "unknown";
 // }
